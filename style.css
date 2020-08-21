@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(235, 227, 227);
+}
+
+
+header{
+    padding: 40px 20px;
+    text-align: center;
+    height: 150px;
+}
+header h2{
+    font-size: 2.5rem;
+    font-family: cursive;
+    color:coral;
+    text-shadow: 1px 1px 1px 1px #fff;
+    outline: 8;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+.d-flex{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 40px;
+}
+.dice{
+    padding: 10px;
+    margin: 30px;
+    cursor: pointer;
+}
+h4{
+    padding: 20px;
+    font-family:monospace;
+    font-size: 2rem;
+}
