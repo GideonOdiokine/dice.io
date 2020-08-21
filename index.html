@@ -8,14 +8,17 @@
 </head>
 <body>
     <header>
-        <h2 id="elem">Refresh Dice Game</h2>
         <h2 id="elem"></h2>
     </header>
     <section>
+        <!-- <h1 style="text-align: center; color: rgb(0, 32, 21); font-family: 'Courier New', Courier, monospace;">Refresh to see the winner</h1> -->
         <div class="container d-flex">
             <div class="dic">
                 <h4>Player 1</h4>
                 <img src="IMAGES/dice-6.png" alt="dice">
+            </div>
+            <div>
+                <button>Play Game</button>
             </div>
             <div class="dic">
                 <h4>Player 2</h4>
@@ -23,6 +26,7 @@
             </div>
         </div>
     </section>
+    
    
 <script src="index.js">
         setInterval(()=> elem.hidden = !elem.hidden, 1000)

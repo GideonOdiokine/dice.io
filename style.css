@@ -22,17 +22,19 @@ header h2{
     outline: 8;
 }
 .container{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: 40px 20px;
     text-align: center;
 }
 .d-flex{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     grid-gap: 40px;
+    align-items: center;
+    justify-content: center;
 }
-.dice{
+.dic{
     padding: 10px;
     margin: 30px;
     cursor: pointer;
@@ -41,4 +43,33 @@ h4{
     padding: 20px;
     font-family:monospace;
     font-size: 2rem;
+}
+button{
+    padding: 20px;
+    border: none;
+    outline: none;
+    color: coral;
+    font-size: 1.4rem;
+    background-color: black;
+}
+@media(min-width:730px){
+    img{
+        width: 250px;
+    }
+  
+}
+@media(max-width:415px){
+    header h2{
+        font-size: 20px;
+    }
+    .container{
+        padding: 10px 5px;
+        margin:0;
+    }
+    img{
+        width: 200px;
+    }
+    button{
+        order: -1;
+    }
 }

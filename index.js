@@ -1,4 +1,5 @@
-let randomNumber = Math.floor(Math.random() * 6) +1;
+document.querySelector("button").addEventListener("click", function(){
+    let randomNumber = Math.floor(Math.random() * 6) +1;
 
 let randomDice = 'dice-' + randomNumber +'.png';
 let DiceImg = "IMAGES/" + randomDice;
@@ -21,3 +22,4 @@ if(randomNumber > randomNum2){
 }else{
     h2.innerHTML="Draw!"
 }
+})
