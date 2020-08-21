@@ -22,4 +22,5 @@ if(randomNumber > randomNum2){
 }else{
     h2.innerHTML="Draw!"
 }
+document.querySelector("button").innerHTML="Play"
 })
